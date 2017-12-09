@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Automated Essay Scoring</title>
+	<meta charset ="utf-8" />
+	<link type="text/css" rel = "stylesheet" href = "../style.css" />
+</head>
+
+<body>
+	<div id = "canvas">
+	<div>
+		<div id = "heading"> <h1><center> AUTOMATED ESSAY SCORE </center></h1></div>
+		<br /><br /> <hr /> <hr /> <br />
+
+		<div style="float:left; font-size:18pt" id = "scoretable">
+			<img src = "../images/grade.jpg" />
+			<h2> Overall Score</h2>
+			<table border="1" align="right">
+				<tr> <th class = "big">GRADE (0-5)</th> <th class = "big">3.69</th></tr>
+				<tr> <th>Spelling(0-5)</th> <td>4.97</td></tr>
+				<tr> <th>Grammar(0-5)</th> <td>4.10</td></tr>
+				<tr> <th>Coherence(0-5)</th> <td>2.01</td></tr>
+			</table>
+		</div>
+		
+		<div style="float:right" id = "statistics">
+			<img src = "../images/stats.jpg" />
+			<h2> Essay Statistics</h2>
+			<table border = "1" align="left">
+				<tr align='left'> <th>Word Count</th> <td>369</td></tr>
+				<tr align='left'> <th>Sentence Count</th> <td>20</td></tr>
+				<tr align='left'> <th>Paragraph Count</th> <td>5</td></tr>
+				<tr align='left'> <th>Average Sentence Length</th> <td>18.45</td> </tr>
+				<tr align='left'> <th>Standard Deviation from the Average Sentence Length</th> <td>10.08</td> </tr>
+			</table>
+		</div>
+	    </div>		
+		
+		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <hr /> <hr /> <br />
+		
+		<div id = "spellings"> 
+			<img src = "../images/spell.jpg" />
+			<h2> Spellings </h2>
+			<h3 style="text-align:left">Number of Misspelt Words ::2</h3>
+			<h2 style="text-align:right" class="score" >Score :: 4.97</h2>
+			
+			<table border="1">
+				<thead> <tr> <th>Misspelt Word</th> <th> Spelling Suggestions</th> </tr> </thead>
+				<tbody><tr> <td>weren</td> <td> ['were', 'ween', 'wren', 'were n', 'renewer', 'Werner', 'Wernher', 'wencher', 'whereon', 'wherein']</td> </tr><tr> <td>didn</td> <td> ['did', 'din', 'dido', 'did n', 'Didi', 'Di', 'deaden', 'doting']</td> </tr></tbody>
+			</table>
+		</div>
+		<br /> <hr /> <hr /> <br />
+		
+		<div id ="grammar">
+			<img src = "../images/grammar.jpg" />
+			<h2> Grammar </h2>
+			<h2 style="text-align:right" class = "score" >Score :: 4.10</h2>
+			
+			<table border="0">
+				<thead> <tr> <th>Sentences</th> <th> Score</th> </tr> </thead>
+				<tbody><tr> <td>After a while, she would pull up the net, and we would go home.</td> <td> 5</td> </tr><tr> <td>Our household might have been described as uncooperative.</td> <td> 5</td> </tr><tr> <td>When the tide was low, Mom could be found down on the mudflats.</td> <td> 5</td> </tr><tr> <td>I have great respect for my mother.</td> <td> 5</td> </tr><tr> <td>When the tide was high, she would be standing on the inlet bridge with her plankton net.</td> <td> 5</td> </tr><tr> <td>I learned early that the moon affected the tides.</td> <td> 5</td> </tr><tr> <td>Everything was subservient to the disposal of the tides.</td> <td> 5</td> </tr><tr> <td>Having studied, my mother is a marine biologist.</td> <td> 5</td> </tr><tr> <td>In our house they were everyday knowledge.</td> <td> 5</td> </tr><tr> <td>Mom was always waiting for a full or new moon, when low tide would be lower than average and high tide higher than average.</td> <td> 4</td> </tr><tr> <td>I knew that it took about eight hours for the tides to change from high to low, sixteen hours for a complete cycle of tides.</td> <td> 4</td> </tr><tr> <td>[3] Sometimes we would dig with shovels in the mud, where yellow and white worms lived in their leathery tunnels.</td> <td> 4</td> </tr><tr> <td>
+A Microscope in the Kitchen
+
+I grew up with buckets, shovels, and nets waiting by the back door; hip-waders hanging in the closet; tide table charts covering the refrigerator door; and a microscope was sitting on the kitchen table.</td> <td> 4</td> </tr><tr> <td>I didn’t have to wait to learn these things in school.</td> <td> 4</td> </tr><tr> <td>Our meals weren’t always served in the expected order of breakfast, lunch, and supper.</td> <td> 4</td> </tr><tr> <td>[2] At the very low tides of the full moon, when almost all the water was sucked away, we found the hideaways where crabs, snails, starfish, and sea urchins hid in order not to be seen.</td> <td> 4</td> </tr><tr> <td>Later, we would see her sitting at the kitchen table, peering at a drop of water through the lenses of her microscope from the bottle—watching the thousands of tiny swimming organisms
+</td> <td> 4</td> </tr><tr> <td>13
+
+For plankton tows, we would stand on the bridge while Mom lowered a cone-shaped net that is often used by marine biologists.Then we would patiently wait.</td> <td> 3</td> </tr><tr> <td>[1] Often, my brother and I, joined our mother on her adventures into tidal lands.</td> <td> 1</td> </tr><tr> <td>The moon being aligned with Earth and the sun when full or new, so its gravity combines with the sun’s gravity to create an even stronger gravitational pull.</td> <td> 1</td> </tr> </tbody>
+			</table>
+		</div>
+		<br /> <hr /> <hr /> <br />
+		
+		<div id = "coherence">
+			<img src = "../images/coherence.jpg" />
+			<h2> Coherence </h2>
+			<h2 class = "score" style="text-align:right"> Score :: 2.01</h2>
+			</div> <br /> <hr /> <hr /> <br />
+		<div> 
+		<img src = "../images/essay.jpg" />
+		
+		<h2> Essay </h2> <div id = "essay"><br /> <br />A Microscope in the Kitchen<br /> <br />I grew up with buckets, shovels, and nets waiting by the back door; hip-waders hanging in the closet; tide table charts covering the refrigerator door; and a microscope was sitting on the kitchen table. Having studied, my mother is a marine biologist. Our household might have been described as uncooperative. Our meals weren’t always served in the expected order of breakfast, lunch, and supper. Everything was subservient to the disposal of the tides. When the tide was low, Mom could be found down on the mudflats. When the tide was high, she would be standing on the inlet bridge with her plankton net.<br /> <br />I have great respect for my mother. I learned early that the moon affected the tides. Mom was always waiting for a full or new moon, when low tide would be lower than average and high tide higher than average. The moon being aligned with Earth and the sun when full or new, so its gravity combines with the sun’s gravity to create an even stronger gravitational pull. I knew that it took about eight hours for the tides to change from high to low, sixteen hours for a complete cycle of tides. I didn’t have to wait to learn these things in school. In our house they were everyday knowledge.<br /> <br />[1] Often, my brother and I, joined our mother on her adventures into tidal lands. [2] At the very low tides of the full moon, when almost all the water was sucked away, we found the hideaways where crabs, snails, starfish, and sea urchins hid in order not to be seen.[3] Sometimes we would dig with shovels in the mud, where yellow and white worms lived in their leathery tunnels. 13<br /> <br />For plankton tows, we would stand on the bridge while Mom lowered a cone-shaped net that is often used by marine biologists.Then we would patiently wait. After a while, she would pull up the net, and we would go home. Later, we would see her sitting at the kitchen table, peering at a drop of water through the lenses of her microscope from the bottle—watching the thousands of tiny swimming organisms</div></div> <br /> <hr /> <hr /> <br />
+		<div id="conclusion">
+			Vishnug0paL <br /> Guide: Jisha Babu
+		</div>
+		
+	</div>
+	
+</body>
+
+</html>
+
+
